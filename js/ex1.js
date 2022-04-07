@@ -33,3 +33,5 @@ const getCharacters = houseCode => {
       return []; // Empty array
   }
 };
+
+const titleElement = document.querySelector("value");
