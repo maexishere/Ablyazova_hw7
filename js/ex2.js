@@ -1,8 +1,22 @@
-const displayText400 = () => {
-    const existingElements = Array.from(document.getElementsByClassName("400level"));
-    existingElements.forEach(element => {
-        console.log(element.textContent);
-    });
-};
+<label for="country">Enter a country name</label>:
+<input type="text" id="country">
+<div id="suggestions"></div>
 
-displayText400();
+//Country list
+
+const countryList = [
+  "Afghanistan",
+  "Albania",
+  "Algeria",
+  "Andorra",
+  "Angola",
+  "Anguilla",
+  "Antarctica",
+  "Antigua-and-Barbuda",
+  "Argentina",
+  "Armenia",
+  "Aruba",
+  "Australia",
+  "Autria",
+  "Azerbaïjan"
+];
