@@ -1,0 +1,13 @@
+p {
+    font-family: 'Calibri';
+    color: rgb(199, 185, 185)}
+h1, h2, h3 {
+    font-family: 'Sylfaen';
+    color: rgb(218, 93, 124);}
+body {
+    font-family: 'Sylfaen';
+    color:rgb(147, 151, 158);}
+a:visited {color: rgb(162, 128, 190);}
+a:link {color: rgb(192, 53, 118);}
+a:hover {color: rgb(135, 143, 250);}
+a:active {color: rgb(165, 170, 253);}
