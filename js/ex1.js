@@ -54,8 +54,15 @@ houses.forEach(house => {
   isThis.appendChild(opElement);
 });
 
+//focus on house
 isThis.focus();
-document.getElementById("house").addEventListener("change", e => {
-  console.log("blabla: " + e.target.value);
+
+const houseCode = document.getElementById("characters")
+houses.forEach(house => {
+  // add characters
+  const codeElement = document.createElement("ul");
+  codeElement.textContent = houseCode;
+  houseCode.appendChild(codeElement);
 });
 
+const valueThis = document.getElementsByTagName("value")
