@@ -34,16 +34,6 @@ const getCharacters = houseCode => {
   }
 };
 
-//const insideEl = document.createElement("option");
-// const outsideEl = document.getElementsByTagName("option");
-//const dsH = document.getElementById("house");
-//houses.forEach(house => {
-// Create each option
-//const opElement = document.createElement("option");
-// opElement.textContent = house.name;
-//});
-
-//opElement.append
 
 //next try
 const isThis = document.getElementById("house");
@@ -65,4 +55,5 @@ houses.forEach(house => {
   houseCode.appendChild(codeElement);
 });
 
+//trying to connect value with characters?
 const valueThis = document.getElementsByTagName("value")
