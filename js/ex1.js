@@ -34,4 +34,28 @@ const getCharacters = houseCode => {
   }
 };
 
-const titleElement = document.querySelector("value");
+//const insideEl = document.createElement("option");
+// const outsideEl = document.getElementsByTagName("option");
+//const dsH = document.getElementById("house");
+//houses.forEach(house => {
+// Create each option
+//const opElement = document.createElement("option");
+// opElement.textContent = house.name;
+//});
+
+//opElement.append
+
+//next try
+const isThis = document.getElementById("house");
+houses.forEach(house => {
+  // Create options
+  const opElement = document.createElement("option");
+  opElement.textContent = house.name;
+  isThis.appendChild(opElement);
+});
+
+isThis.focus();
+document.getElementById("house").addEventListener("change", e => {
+  console.log("blabla: " + e.target.value);
+});
+

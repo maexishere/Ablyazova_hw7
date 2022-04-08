@@ -1,7 +1,3 @@
-<label for="country">Enter a country name</label>:
-<input type="text" id="country">
-<div id="suggestions"></div>
-
 //Country list
 
 const countryList = [
@@ -17,6 +13,8 @@ const countryList = [
   "Armenia",
   "Aruba",
   "Australia",
-  "Autria",
-  "Azerbaïjan"
+  "Austria",
+  "Azerbaijan"
 ];
+
+
